@@ -76,12 +76,12 @@ public:
 
 int main()
 {
-    Stack stack:
+    Stack stack;
 
     int choice = 0;
     int value;
 
-    while (choice !=5)
+    while (choice != 5)
     {
         cout << "1. Push\n";
         cout << "2. pop\n";
@@ -89,5 +89,7 @@ int main()
         cout << "4. Exit\n";
         cout << "Enter your choice: ";
         cin >> choice;
+
+        switch (choice)
     }
 }
