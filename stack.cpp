@@ -111,5 +111,9 @@ int main()
             cout << "invalid choice.try agai." << endl;
             break;
         }
+
+        cout << endl;
     }
+
+    return 0;
 }
