@@ -25,4 +25,23 @@ public:
     {
         top = NULL; // initialize the stack with a null top pointer
     }
+
+    int push(int value)
+    {
+        node *newnode = new node();
+        newnode->data = value;
+        newnode->next = top;
+        top = newnode;
+        cout << "Push Value: " << value << endl;
+        return value;
+    }
+
+    void pop()
+    {
+        node*temp = top;
+        if (isEmpty())
+        {
+            
+        }
+    }
 }
